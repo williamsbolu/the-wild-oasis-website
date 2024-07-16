@@ -42,7 +42,7 @@ export default async function Page() {
       </div>
 
       <div className="col-span-2">
-        {/* here this version is for having a responsive image incase the image is imported or requested from a server */}
+        {/* here this version is for having a responsive image incase we can't import the image requested from a server */}
         <Image
           src={image1}
           placeholder="blur"

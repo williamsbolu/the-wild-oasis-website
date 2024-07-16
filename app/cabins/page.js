@@ -6,8 +6,8 @@ import ReservationReminder from "../_components/ReservationReminder";
 
 // "REVALIDATION" the value specified here in "revaildate" should depend on how often the data changes (in seconds)
 // we later made this page dynamic using "searchParams", so this revalidate code dosent apply anymore, only for static pages
-// export const revalidate = 3600; // 1hr
-export const revalidate = 0;
+export const revalidate = 3600; // 1hr
+// export const revalidate = 0;
 
 export const metadata = {
   title: "Cabins",
