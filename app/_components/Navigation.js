@@ -3,6 +3,9 @@ import Link from "next/link";
 
 export default async function Navigation() {
   // const session = await auth();
+  const session = {
+    user: null,
+  };
 
   return (
     <nav className="z-10 text-xl">
